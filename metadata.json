@@ -1,0 +1,6 @@
+{
+  "name": "이태리 북부 & 돌로미티 로드트립 가이드",
+  "description": "아들과 함께하는 이태리 북부 및 돌로미티 14박 15일 상세 로드트립 가이드, 양방향 체크리스트, 물류 가이드 및 현장 주차 및 교통 요령 제공",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
