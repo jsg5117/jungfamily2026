@@ -26,10 +26,12 @@ export const itineraryData: ItineraryItem[] = [
 
   // Day 4
   { day: 4, date: "7/19", time: "09:00 - 11:30", city: "베로나", title: "베로나 구시가지 줄리엣의 집 투어", desc: "베로나 역사지구 줄리엣의 집, 에르베 광장, 아레나 주변 등 정취를 감상하고 촬영.", lodging: "Appartements Pension Sonia", transp: "도보 관광", budget: "입장료 €6/인", notes: "줄리엣 동상 오른팔 터치 촬영" },
-  { day: 4, date: "7/19", time: "11:30 - 12:30", city: "베로나", title: "피렌체식 화덕 피자로 이른 점심 식사", desc: "베로나 구시가지 골목의 오래된 로컬 화덕 피제리아에서 바삭하고 신선한 마르게리타 피자로 점심.", lodging: "Appartements Pension Sonia", transp: "도보 이동", budget: "중식비 약 €35", notes: "이른 식사로 오후 운전 대비" },
-  { day: 4, date: "7/19", time: "12:30 - 15:30", city: "푸네스 계곡", title: "[Road No. A22 ➔ SP141] 베로나 ➔ 푸네스 알프스 수직 상승 드라이브", desc: "베로나를 탈출해 북상 고속도로 A22 (Brenner Pass 축) 진입하여 알프스 계곡을 따라 수직 상승. Chiusa/Klausen 톨게이트 탈출하여 지방도 SP141 (Val di Funes 진입선) 타고 마달레나 마을 진입.", lodging: "Appartements Pension Sonia", transp: "렌터카 드라이브 (고속도로 A22 ➔ SP141)", budget: "고속도로 톨비 약 €15", notes: "Chiusa 톨게이트 탈출 필독" },
-  { day: 4, date: "7/19", time: "15:30 - 16:30", city: "푸네스 계곡", title: "펜션 소nia 체크인 및 여장 풀기", desc: "푸네스 계곡 마달레나 마을에 위치한 확정 숙소 '아파트먼트 펜션 소nia' 도착. 호스트 가족과 인사 후 방 배정 및 짐 이동.", lodging: "Appartements Pension Sonia", transp: "렌터카 드라이브", budget: "숙박비 잔금 결제", notes: "창문 너머 거대한 오드레 돌산 조망 체크" },
-  { day: 4, date: "7/19", time: "16:30 - 19:00", city: "푸네스 계곡", title: "마달레나 성당 언덕 포토스팟 도보 산책", desc: "숙소에서 나와 차 열쇠는 둔 채 가볍게 도보 이동. 오드레 암벽 산군이 석양빛에 붉게 타들어가는 세기의 포토존 출사 투어.", lodging: "Appartements Pension Sonia", transp: "도보 15분", budget: "무료", notes: "야간용 헤드랜턴 소지" },
+  { day: 4, date: "7/19", time: "11:30 - 12:30", city: "베로나", title: "정통 로컬 화덕 피자로 이른 점심 식사", desc: "베로나 구시가지 골목의 오래된 로컬 화덕 피제리아에서 바삭하고 신선한 마르게리타 피자로 점심.", lodging: "Appartements Pension Sonia", transp: "도보 이동", budget: "중식비 약 €35", notes: "이른 식사로 오후 장거리 운전 대비" },
+  { day: 4, date: "7/19", time: "12:30 - 14:30", city: "카레차 호수", title: "[Road No. A22 ➔ SS241] 베로나 ➔ 카레차 호수(까르짜) 알프스 드라이브", desc: "베로나를 탈출해 고속도로 A22 북상 후 Bolzano Nord(보르차노 북) 톨게이트 탈출. 아름다운 발디에가(Val d'Ega) 계곡을 관통하는 국도 SS241번 도로를 따라 에메랄드빛 카레차 호수(까르짜) 주차장 도착.", lodging: "Appartements Pension Sonia", transp: "렌터카 드라이브 (A22 ➔ SS241)", budget: "고속도로 톨비 약 €10, 주차비 약 €3", notes: "안전 속도 준수 및 계곡 경치 감상" },
+  { day: 4, date: "7/19", time: "14:30 - 15:30", city: "카레차 호수", title: "신비로운 에메랄드빛 카레차(까르짜) 호수 둘레길 산책", desc: "라테마르(Latemar) 산군이 거울처럼 투명하게 투영되는 전설의 에메랄드 호숫가를 걸으며 포토타임 및 가벼운 티타임 휴식.", lodging: "Appartements Pension Sonia", transp: "도보 산책", budget: "무료", notes: "자외선 차단 및 물 가두기 울타리 준수" },
+  { day: 4, date: "7/19", time: "15:30 - 16:45", city: "푸네스 계곡", title: "[Road No. SS241 ➔ A22 ➔ SP141] 카레차 호수 ➔ 푸네스 계곡 이동", desc: "카레차 호수를 출발해 SS241 국도로 Bolzano Nord 진입 ➔ 고속도로 A22 북상 ➔ Chiusa/Klausen 톨게이트 탈출 ➔ 지방도 SP141을 따라 마달레나 마을 펜션 Sonia 도착.", lodging: "Appartements Pension Sonia", transp: "렌터카 드라이브 (SS241 ➔ A22 ➔ SP141)", budget: "고속도로 톨비 약 €5", notes: "Chiusa 톨게이트 출구 유의" },
+  { day: 4, date: "7/19", time: "16:45 - 17:30", city: "푸네스 계곡", title: "펜션 소니아 체크인 및 여장 풀기", desc: "푸네스 계곡 마달레나 마을에 위치한 확정 숙소 '아파트먼트 펜션 소니아' 도착. 호스트 가족과 인사 후 방 배정 및 짐 이동.", lodging: "Appartements Pension Sonia", transp: "렌터카 드라이브", budget: "숙박비 잔금 결제", notes: "창문 너머 거대한 오드레 돌산 조망 체크" },
+  { day: 4, date: "7/19", time: "17:30 - 19:30", city: "푸네스 계곡", title: "마달레나 성당 언덕 포토스팟 도보 산책", desc: "숙소에서 나와 차 열쇠는 둔 채 가볍게 도보 이동. 오드레(Odle) 암벽 산군이 석양빛에 붉게 타들어가는 세기의 포토존 출사 투어.", lodging: "Appartements Pension Sonia", transp: "도보 15분", budget: "무료", notes: "야간용 헤드랜턴 소지" },
 
   // Day 5
   { day: 5, date: "7/20", time: "08:30 - 09:00", city: "발가르디나", title: "[Road No. SP141 ➔ SS242d] 오르티세이 세체다 주차장 이동 및 카드 구매", desc: "지방도 SP141과 국도 SS242d를 경유하여 오르티세이(Ortisei) 중심가 지하 차고지 'Garage Seceda' 주차. Seceda 하부 승강장 매표소 혹은 My Dolomiti 온라인 숍에서 가르디나 카드 구입.", lodging: "Appartements Pension Sonia [연박]", transp: "렌터카 드라이브 (SP141 ➔ SS242d)", budget: "주차 요금 약 €12 / 카드 구매비", notes: "가르디나 카드는 현장 매표소 혹은 모바일 온라인 예매(강추)로 즉시 픽업 가능" },
@@ -39,7 +41,7 @@ export const itineraryData: ItineraryItem[] = [
   { day: 5, date: "7/20", time: "14:00 - 14:35", city: "발가르디나", title: "S. Cristina 하부 승강장 ➔ Dosses 버스정류장 도보", desc: "콜 라이저 하부 승강장에서 산타 크리스티나 마을 하부 광장 중심에 있는 S. Cristina, Dosses 정류장까지 약 1.2km 도보 이동.", lodging: "Appartements Pension Sonia [연박]", transp: "도보 15분", budget: "무료", notes: "인도 보행 안전 준수" },
   { day: 5, date: "7/20", time: "14:35 - 14:50", city: "오르티세이", title: "350번 광역 버스 탑승하여 오르티세이 복귀", desc: "Dosses 정류장에서 정시 출발하는 350번 광역 버스 탑승. Ortisei Piazza San Antonio 광장 정류장 안전 도착.", lodging: "Appartements Pension Sonia [연박]", transp: "350번 정기 노선 버스", budget: "Mobil Card 적용 (무료)", notes: "버스 시간표 전광판 대조 확인" },
   { day: 5, date: "7/20", time: "15:00 - 17:30", city: "알페디시우시", title: "오르티세이 곤돌라 연계 알페 디 시우시 고원 목초 하이킹", desc: "도착한 광장에서 도보 3분 만에 알페 디 시우시행 곤돌라 승강장 이동. 곤돌라를 타고 유럽 최대 고산 지대 평원에 도달해 완만한 에메랄드 야생 초원 고원 하이킹.", lodging: "Appartements Pension Sonia [연박]", transp: "곤돌라 왕복 탑승", budget: "가르디나 무제한 패스", notes: "고원 자외선이 매우 강하니 모자/선크림 재도포 필수" },
-  { day: 5, date: "7/20", time: "17:30 ~", city: "푸네스 계곡", title: "[Road No. SS242d ➔ SP141] 푸네스 계곡 귀환 및 로컬 석식", desc: "오르티세이 주차장에서 렌터카를 픽업하여 국도 SS242d 및 SP141을 이용해 마달레나 마을 펜션 소nia 안전 복귀 후 현지 가정식 저녁 만찬.", lodging: "Appartements Pension Sonia [연박]", transp: "렌터카 드라이브", budget: "저녁 식사비 약 €60", notes: "산길 야간 주행 시 상향등 하향등 교행 작동 유의" },
+  { day: 5, date: "7/20", time: "17:30 ~", city: "푸네스 계곡", title: "[Road No. SS242d ➔ SP141] 푸네스 계곡 귀환 및 로컬 석식", desc: "오르티세이 주차장에서 렌터카를 픽업하여 국도 SS242d 및 SP141을 이용해 마달레나 마을 펜션 소니아 안전 복귀 후 현지 가정식 저녁 만찬.", lodging: "Appartements Pension Sonia [연박]", transp: "렌터카 드라이브", budget: "저녁 식사비 약 €60", notes: "산길 야간 주행 시 상향등 하향등 교행 작동 유의" },
 
   // Day 6
   { day: 6, date: "7/21", time: "08:30 - 09:30", city: "파소 셀라", title: "[Road No. SP141 ➔ SS242] 파소 셀라(Passo Sella) 드라이브 및 주차", desc: "펜션 소니아를 출발하여 국도 SS242 (Val Gardena 관통로) 진입. 거대한 바위 산맥 가르디나 골짜기를 타고 상상 속 알프스 지형을 굽이돌며 Passo Sella 전용 유료 주차장에 안전 주차.", lodging: "Appartements Pension Sonia [연박]", transp: "렌터카 드라이브 (SP141 ➔ SS242)", budget: "주차 요금 €10", notes: "가르디나 카드 패키지 지참 상태 체크. 갓길 불법주차(실선 밖 잔디 접촉 등) 엄격 견인단속 단행되므로 주차장 입고 필수!" },
@@ -50,7 +52,7 @@ export const itineraryData: ItineraryItem[] = [
   { day: 6, date: "7/21", time: "17:00 ~", city: "푸네스 계곡", title: "아들과의 평화로운 푸네스 성당 밤길 도보 산책", desc: "마달레나 성당 골목길을 고요하게 걸으며, 내일 동부 대이동 및 가방 정밀 보관 체크. 현지 가을 저녁 공기를 호흡하며 아늑한 조식 카페 사전 대조.", lodging: "Appartements Pension Sonia [연박]", transp: "도보 산책", budget: "무료", notes: "가벼운 손전등 상시 구비" },
 
   // Day 7
-  { day: 7, date: "7/22", time: "08:30 - 10:00", city: "라가주오이", title: "[Road No. SP141 ➔ SS244] 푸네스 ➔ 팔자레고 패스 직항 드라이브", desc: "펜션 소nia 체크아웃 후 지방도 SP141에서 국도 SS244 (Val Badia 고속축) 진입하여 남하. 구불구불하지만 빼어난 암벽 비경을 품은 Passo Valparola를 돌파해 라가주오이 케이블카 승강장이 위치한 Passo Falzarego에 10:00 정시 도착.", lodging: "호텔 유벤투스 (Hotel Juventus)", transp: "렌터카 드라이브 (SP141 ➔ SS244 ➔ SR48)", budget: "무료", notes: "산악 코너링 구간 저속 엔진 브레이크 사용" },
+  { day: 7, date: "7/22", time: "08:30 - 10:00", city: "라가주오이", title: "[Road No. SP141 ➔ SS244] 푸네스 ➔ 팔자레고 패스 직항 드라이브", desc: "펜션 소니아 체크아웃 후 지방도 SP141에서 국도 SS244 (Val Badia 고속축) 진입하여 남하. 구불구불하지만 빼어난 암벽 비경을 품은 Passo Valparola를 돌파해 라가주오이 케이블카 승강장이 위치한 Passo Falzarego에 10:00 정시 도착.", lodging: "호텔 유벤투스 (Hotel Juventus)", transp: "렌터카 드라이브 (SP141 ➔ SS244 ➔ SR48)", budget: "무료", notes: "산악 코너링 구간 저속 엔진 브레이크 사용" },
   { day: 7, date: "7/22", time: "10:00 - 12:00", city: "라가주오이", title: "Cortina Vertical Pass 1일권 현장 구입 & 정상 관람", desc: "팔자레고 승강장 매표소에서 Cortina Vertical Pass 1일권 현장 발권. 대형 공중 케이블카 탑승해 해발 2,752m 고지 진입. 알프스 기암 설산 360도 총천연색 파노라마 감상 후 케이블카 하행선 복귀.", lodging: "호텔 유벤투스 (Hotel Juventus)", transp: "케이블카 왕복 이동", budget: "Cortina Vertical Pass 1일권 약 €42~45/인", notes: "초고산 지대 기습 강풍 대비용 방수/방풍 자켓 필수 소지" },
   { day: 7, date: "7/22", time: "12:00 - 12:15", city: "친퀘토레", title: "[Road No. SR48] 팔자레고 패스 ➔ 바이 데 도네스(Bai de Dones) 이동", desc: "Passo Falzarego 주차장 탈출 후 국도 SR48 동진하여 친퀘토레 체어리프트가 위치한 Bai de Dones 주차장으로 약 4km 단거리 이동 및 안심 주차.", lodging: "호텔 유벤투스 (Hotel Juventus)", transp: "렌터카 드라이브 (SR48 국도)", budget: "무료 주차", notes: "잠시 주차 시에도 차량 내부 소지품 및 캐리어 가림막 철저 차단" },
   { day: 7, date: "7/22", time: "12:15 - 15:30", city: "친퀘토레", title: "체어리프트 탑승 & 스코이야틀리-아베라우-누볼라우 산장 정복", desc: "Vertical Pass로 체어리프트 승차하여 Scoiattoli 산장 도달. 기암괴석 참호 지대를 거쳐 Averau 산장을 통과한 후, 대망의 깎아지른 벼랑 끝 누볼라우(Nuvolau) 산장(2,575m) 정상 트레킹. 절벽 뷰 감상 및 산장 중식 후 왔던 경로 그대로 리프트 하산.", lodging: "호텔 유벤투스 (Hotel Juventus)", transp: "리프트 왕복 및 등반 트레킹", budget: "Vertical Pass 적용 (무료) + 산장 중식비 약 €45", notes: "누볼라우 정상부 돌길 접지력 확보 및 동일 코스 복구 엄수" },
@@ -188,7 +190,7 @@ export const accommodationData: AccommodationItem[] = [
   },
   {
     name: "Appartements Pension Sonia",
-    koreanName: "아파트먼트 펜션 소nia",
+    koreanName: "아파트먼트 펜션 소니아",
     location: "푸네스(Funes) 계곡 마달레나",
     dateRange: "7월 19일 ~ 22일 (3박)",
     type: "selected",
