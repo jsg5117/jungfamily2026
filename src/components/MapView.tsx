@@ -36,12 +36,28 @@ const MAP_LIST: MapInfo[] = [
     tabLabel: "일정3",
   },
   {
+    id: "toscana-core",
+    title: "토스카나 핵심 관광 안내도",
+    subtitle: "Toscana Main Point Map",
+    description: "토스카나 전역의 주요 드라이빙 경로와 매력적인 소도시 및 뷰포인트 중심의 상세 지도입니다.",
+    src: "https://www.google.com/maps/d/embed?mid=1klgVWrwytxVOJr8vRuRSw10D6ygo7EYM&hl=ko&ehbc=2E312F",
+    tabLabel: "토스카나 핵심",
+  },
+  {
     id: "dolomites-only",
     title: "돌로미티 핵심 관광 안내도",
     subtitle: "Dolomites Main Point Map",
     description: "돌로미티 산악 지역의 주요 뷰포인트, 트레킹 코스 및 드라이빙 기동 경로 중심의 상세 지도입니다.",
-    src: "https://www.google.com/maps/d/embed?mid=1eULeeWr6yfzgUWmDWu5mCOnEbQvvbx8&hl=ko&ehbc=2E312F",
+    src: "https://www.google.com/maps/d/embed?mid=17vYAHzTIIMS3D63d6xTgIve7t6FRmTg&hl=ko&ehbc=2E312F",
     tabLabel: "돌로미티 핵심",
+  },
+  {
+    id: "venice-detail",
+    title: "베네치아 상세 안내도",
+    subtitle: "Venice Detail Map",
+    description: "수상 버스(바포레토) 노선, 본섬 명소 및 도보 관광 동선이 상세 표시된 전용 지도입니다.",
+    src: "https://www.google.com/maps/d/embed?mid=1iKW_4BN1JoaQe8BDjbFYfyKw6Sa700br&hl=ko&ehbc=2E312F",
+    tabLabel: "베네치아",
   },
 ];
 
